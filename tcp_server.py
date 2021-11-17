@@ -6,7 +6,7 @@ with socket.socket(socket.AF_INET,socket.SOCK_STREAM)as s:
     s.bind(('0.0.0.0',50007))
     # 1 接続
     s.listen(1)
-    # connection するまで待つ
+    # connection するまで待つa
     while True:
     # 誰かがアクセスしてきたら、コネクションとアドレスを入れる
        conn,addr=s.accept()
